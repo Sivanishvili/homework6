@@ -1,16 +1,14 @@
 
 
 
+
 .conteiner{
-    border: 2px solid red;
-    display: flex;
     max-width: 1366px;
+    /* border: 2px solid red; */
     width: 100%;
+    margin: 0 auto;
+    
 }
-
-
-
-
 
      /* სანავიგაციო სისტემის გასტილვა */
 
@@ -20,15 +18,18 @@ header{
     justify-content: space-between;
     padding: 36px 139px 35px 139px;
     align-items: center;
-
 }
 
 
-
-ul{
+nav ul{
     display: flex;
     gap: 68px;
+}
+
+
+nav ul li{
     color: #8172d5;
+    font-size: 13px;
 }
 
 
@@ -38,7 +39,6 @@ ul{
     
     
     display: flex;
-    align-items: center;
     height: 37px;
     width: 227px;
 }
@@ -50,14 +50,111 @@ ul{
     background-color: #f2f5f8;
     border-radius: 0%;
     border: none;
+    outline: none;
 }
 
 
-/* საძიებო სისტემის აიკონი ვერ ავასწორე ზუსტად ცენტრში */
+.searchicon{
+    height: 37px;
+    width: 37px;
+    background-color: #8172d5;
+
+    
+}
+
 
 .fa-magnifying-glass{
-width: 37px;
-height: 37px;
-background-color: #8172d5;
+width: 12px;
+height: 12px;
+padding-top: 30%;
+padding-left: 30%;
+
+
 }
+
+
+/* კონტეინერის გასტილვა */
+
+
+.firstsection_conteiner{
+    width: 100%;
+    background-color: #F2F5F8;
+    /* border: 5px solid black; */
+
+}
+ 
+section{
+   width: 80%;
+   /* border: 3px solid red; */
+   margin: 0 auto;
+   height: 1020px;
+   padding-top: 59px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #133b3a;
+    padding-bottom: 28px;
+}
+
+.cards{
+    /* border-bottom: 2px solid red; */
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.card{
+/*  
+    border: 3px solid blue; */
+    height: 368px;
+    width: 24%;
+    padding: 18px 18px 21px 18px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.img_card{
+    width: 100%;
+    height: 46%;
+}
+
+
+.card p{
+    font-size: 20px;
+    padding-top: 76px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+   padding: 29px 139px;
+   background-color:  #758bfd;
+   color: white;
+    font-size: 14px;
+}
+
+footer h3{
+    display: flex;
+    margin-right: 376px;
+    
+}
+
+footer ul{
+display: flex;
+gap: 111px;
+}
+
+
+
+
 
