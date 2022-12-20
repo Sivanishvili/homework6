@@ -1,0 +1,63 @@
+
+
+
+.conteiner{
+    border: 2px solid red;
+    display: flex;
+    max-width: 1366px;
+    width: 100%;
+}
+
+
+
+
+
+     /* სანავიგაციო სისტემის გასტილვა */
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 36px 139px 35px 139px;
+    align-items: center;
+
+}
+
+
+
+ul{
+    display: flex;
+    gap: 68px;
+    color: #8172d5;
+}
+
+
+/* საძიებო სისტემის გასტილვა */
+
+.searchbox{
+    
+    
+    display: flex;
+    align-items: center;
+    height: 37px;
+    width: 227px;
+}
+
+
+.search_bar{
+    width: 190px;
+    height: 37px;
+    background-color: #f2f5f8;
+    border-radius: 0%;
+    border: none;
+}
+
+
+/* საძიებო სისტემის აიკონი ვერ ავასწორე ზუსტად ცენტრში */
+
+.fa-magnifying-glass{
+width: 37px;
+height: 37px;
+background-color: #8172d5;
+}
+
